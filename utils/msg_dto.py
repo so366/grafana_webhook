@@ -19,6 +19,9 @@ class MsgDTO:
         self.calculation = ''
         self.comparison = ''
         self.msg = ''
+        self.state = ''
+        self.rule_name = ''
+        self.metric = ''
         self.interval = ''
         self.code = 2
         self.title = ''

@@ -12,7 +12,7 @@ def alert():
         return '404'
     elif request.method == 'POST':
         bot = Bot()
-        bot.put_data()
+        bot.data()
         return '200'
     return '200'
 
