@@ -1,1 +1,1 @@
-from .wechat import WeChat
+from .bot import Bot
