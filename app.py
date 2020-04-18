@@ -1,7 +1,6 @@
 # _*_ coding:utf-8 _*_
 from flask import Flask, request, jsonify, current_app
 from utils.bot import Bot
-from pprint import pprint
 
 app = Flask(__name__)
 
