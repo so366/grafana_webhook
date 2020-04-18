@@ -1,5 +1,5 @@
 # _*_ coding:utf-8 _*_
-from flask import Flask, request, jsonify, current_app
+from flask import Flask, request
 from utils.bot import Bot
 
 app = Flask(__name__)
